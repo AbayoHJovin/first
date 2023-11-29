@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+   <link rel="stylesheet" href="clac.css"> 
+   <title>CALCULATOR</title>
+</head>
+<body>
+    
+    <div class="total">
+        <form name="calculator">
+    <div class="calculator">
+        <div>
+            <input type="text" name="ans" class="display">
+            </div>
+            <div class="clock">
+                <h3 id="hello"></h3>
+                <script src="calculator.js"></script>              
+            
+            </div>
+    </form>
+        <form name="Calculat">
+            <h2>
+        <br>
+    <br>
+    <div class="delete">
+        <input type="button" value="DEL" onclick="document.calculator.ans.value=''">
+    </div>
+    <div class="num1">
+        <input type="button" value="7" onclick="document.calculator.ans.value+='7' ">
+        <input type="button" value="8" onclick="document.calculator.ans.value+='8'">
+        <input type="button" value="9" onclick="document.calculator.ans.value+='9'">
+        <input type="button" value="+" onclick="document.calculator.ans.value+='+' ">
+    </div>
+    <div>
+        <input type="button" value="4" onclick="document.calculator.ans.value+='4'">
+        <input type="button" value="5" onclick="document.calculator.ans.value+='5'">
+        <input type="button" value="6" onclick="document.calculator.ans.value+='6'">
+        <input type="button" value="-" onclick="document.calculator.ans.value+='-'">
+    </div>
+    <div>
+        <input type="button" value="1" onclick="document.calculator.ans.value+='1'">
+        <input type="button" value="2" onclick="document.calculator.ans.value+='2'">
+        <input type="button" value="3" onclick="document.calculator.ans.value+='3'">
+        <input type="button" value="*" onclick="document.calculator.ans.value+='*'">
+    </div>
+    <div>
+        <input type="button" value="0" onclick="document.calculator.ans.value+='0'">
+        <input type="button" value="." onclick="document.calculator.ans.value+='.'">
+        <input type="button" value="/" onclick="document.calculator.ans.value+='/'">
+        <input type="button" value="="  onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+    </div>       
+    </body>
+    </html>
+    </div>
+    </div>
+    </h2>
+        </form>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.delete{
+    margin-left:255px ;
+    font-size:0px ;
+}
+.total{
+   width:100% ;
+   height:80% ;
+    display:flex; 
+   align-items: center;
+   justify-content: center;
+}
+.calculator{
+   background: rgb(11, 11, 12);
+   padding:20px ;
+   border-radius: 20px;
+
+}
+.calculator form input{
+
+   outline: 0;
+   width:60px;
+   height: 60px;
+    color:white;
+    font-size: 40px;
+    background: transparent;
+    box-shadow:-2px -2px  10px;
+    margin:10px ;
+    border-radius: 10px;
+
+}
+ .display{
+   background-color:rgb(90, 92, 87);
+   width:310px;
+   height:50px ;
+   font-size:40px ;
+   text-align: right;
+}
+.clock{
+   color: rgb(12, 14, 15);
+   background-color:rgb(90,92,87);
+   width:150px ;
+   height:30px ;
+   text-align:center;
+   font-size:25px ;
+   font-family:Arial, Helvetica, sans-serif ;
+   
+}
